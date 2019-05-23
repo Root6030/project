@@ -1,0 +1,264 @@
+/*background image for body that cover whole body and no repeating image*/
+body {
+    margin: 0px;
+    background-image:url(../Images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*setting for container as above plus size of the container*/
+#container {
+    width: 1000px;
+    height: 1100;
+    margin: 0 auto 0 auto;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*background size position for header*/
+header {
+    width: 1000px;
+    height: 150px;
+    background-image:url(../Images/webdesignbanner.png);
+    background-repeat: no-repeat;
+    background-size: 1000px 150px;
+}
+
+/*navigation, navigation list settings*/
+nav {
+    width: 1000px;
+    height: 50px;
+    background-color: #3399ff;
+    display: block;
+    float: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    vertical-align: center;
+    /*line-height: 50px; to get vertical align in center no need line heigth if nav float left*/
+    padding: 0px 85px 0px 0px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+/*setings for shadows in nav menu*/
+nav ul li a:hover {
+    background: #cc33cc; 
+    color: ; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 4px; 
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+    text-decoration: none; 
+}
+
+/* article section headings paragraphs ordered list settings*/
+article {
+    width: 1000px; 
+    height: 850px;
+    float: left;
+    margin: ;
+    padding-left: ;
+	padding-right: ;
+    overflow: scroll;
+    color: ;
+    font-weight: ;
+}
+
+.descr1 , .descr2 {
+	font-family: Verdana;
+	font-size: 1rem;
+	padding-left: 1em;
+	border-left: solid;
+	border-left-width: 1px;
+	text-align: justify;
+	border-right: solid;
+	border-right-width: 1px;
+	padding-right: 1em;
+    color: ghostwhite;
+    font-weight: ;
+}
+.art1list {
+	font-family: Verdana;
+	font-size: 1rem;
+	text-align: center;
+    color: ghostwhite;
+    font-weight: bold;
+}
+.descr0 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 1rem;
+	font-style: italic;
+    color: bisque;
+    font-weight: bold;
+}
+
+.img0 img, .figcap0 {
+	position: relative;
+	left: 320px;
+    color: aquamarine;
+}
+.img1 img, .figcap1{
+	position: relative;
+	left: 190px;
+    color: aquamarine;
+}
+.descrart3 {
+	text-align: right;
+	font-family: Arial;
+	font-size: 1rem;
+	font-style: italic;
+	border-right: solid;
+	border-right-width: 1px;
+	padding-right: 1em;
+    color: bisque;
+}
+table {
+	width: 100%;
+	border: 1px solid;
+	border-color: black;
+    color: black;
+    font-weight: bolder;
+	
+}
+table caption {
+    color: ghostwhite;
+    font-size: 24px;
+    font-weight: bold;
+}
+th, td{
+	border: 1px solid;
+	border-color: black;
+	height: 50px;
+}
+th {
+	background-color: #E6E6E6;
+    font-weight: bolder;
+}
+td {
+    color: ghostwhite;
+}
+h2 {
+    color: aqua;
+    font-weight: bold;
+}
+caption {
+	font-family: Arial;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.descr3 {
+	font-family: Verdana;
+	font-size: 1rem;
+	padding-left: 1em;
+	border-left: solid;
+	border-left-width: 1px;
+	text-align: justify;
+	border-right: solid;
+	border-right-width: 1px;
+	padding-right: 1em;
+	overflow: auto;
+    color: ghostwhite;
+}
+.descr3 img {
+	float: right;
+	padding-left: 1em;
+}
+.descr4 {
+	font-family: Verdana;
+	font-size: 1rem;
+	padding-left: 1em;
+	border-left: solid;
+	border-left-width: 1px;
+	text-align: justify;
+	border-right: solid;
+	border-right-width: 1px;
+	padding-right: 1em;
+	overflow: auto;
+    color: ghostwhite;
+}
+.descr4 img {
+	float: left;
+	padding-right: 1em;
+}
+.art3list {
+	font-family: Verdana;
+	font-size: 1rem;
+	text-align: right;
+	padding-right: 1em;
+	border-right: solid;
+	border-right-width: 1px;
+    color: ghostwhite;
+    font-weight: bold;
+}
+.art5list {
+	padding-left: 1em;
+	font-family: Verdana;
+	font-size: 1em;
+}
+.art5list dt {
+	font-weight: bold;
+}
+.art5list dd {
+	font-style: italic;
+	color: whitesmoke;
+}
+
+.bio{
+	font-family: Verdana;
+	font-size: 1rem;
+	padding-left: 1em;
+	border: solid;
+	border-width: 1px;
+	text-align: justify;
+	padding-right: 1em;
+	margin: 1em;
+}
+.facts {
+	list-style-position: outside;
+	font-family: Verdana;
+	font-size: 1rem;
+	padding-left: 1em;
+	display: inline-block;
+	margin: 30px 10px 10px 1px;
+}
+.films {
+	list-style-position: outside;
+	font-family: Verdana;
+	font-size: 1rem;
+	padding-left: 1em;
+	display: inline-block;
+	margin: 30px 10px 10px 5%;
+	position: absolute;
+	left: 450px;
+}
+.webs {
+	list-style-position: outside;
+	font-family: Verdana;
+	font-size: 1rem;
+	padding-left: 1em;
+	display: inline-block;
+	margin: 30px 10px 10px 7%;
+	position: absolute;
+	left: 850px;
+}
+.fam {
+	text-align: center;
+	font-style: italic;
+}
+
+/*footer setting size, colour, text allignment*/
+footer {
+    width: 1000px;
+    height: 50px;
+    background-color: #3399ff;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    color: white;
+}

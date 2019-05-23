@@ -1,0 +1,186 @@
+<!DOCTYPE html><!--type of document defined to be HTML5-->
+
+<html lang="en"><!--root element of HTML Page-->
+    
+    <head><!--contains meta information about document-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Website_Design_Project</title><!--element specifies a title for a document-->
+        <link rel="stylesheet" href="Css/wwwstyle.css" />
+    </head>
+    
+    <body>
+        <div id="container">
+            <header>
+            </header>
+            
+            <nav><!--defines the navigation links-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="bibliography.html">Bibliography</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://www.csn.ie" target="_blank">CSN College</a></li>
+                </ul>
+            </nav>
+            
+            <article class="art1">
+                <h2 id="HOTWB">"History of the Web"</h2>
+					<p class="descr1">The idea of the World Wide Web is dated back to early 1946 when Murray Leinster wrote a short story which described how computers in every home, with each one having access to a central device where they could retrieve information.
+						At the beginning before the WWW, the internet only provided screens full of text (usually one font type and one size) which was visually very boring but quiet good for exchanging and accessing information.
+						The first GUIs (graphical user interfaces) developed by companies like Compuserve and AOL added a bit of color and layout but it was still boring.
+						Ted Nelson's Xanadu project is one of the important predecessors of the web as he worked on the concept of Hypertext where you could click on the word and it would take you somewhere else (HTTP - Hypertext Transfer Protocol).
+						Another important building block was URI (Uniform Resource Identifier) also called URL (Uniform Resource Locator) that is unique and used to identify each resource on the web.
+						The other feature was HTML (Hypertext Markup Language) that allowed pages to display different fonts, sizes, pictures, colors, frames etc.
+						All this things were brought by Sir Tim Berners-Lee a British computer scientist who created World Wide Web. He began work using NeXT computer, one of Steve Job's early products.
+						By October of 1990, Tim had written the three fundamental technologies that remain the foundation of today's web:</p>
+					
+					<ul class="art1list">
+						<li>HTML - Hypertext Markup Language</li>
+						<li>URL - Uniform Resource Locator</li>
+						<li>HTTP - Hypertext Transfer Protocol</li>
+					</ul>
+					
+					<p class="descr1">The World Wide Web Project was announced on 8th of June 1991 and on 6th of August 1991 the world's first web page was launched.The copy of the site is still available:<a href="https://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html" target="blank">The World's First Website.</a>
+						The world first web browser was called "World Wide Web" and it was at the same time an editor.</p>
+						
+						<figure class="img1">
+							<img src="Images/first-web-browser.png" alt="First Web Browser" />	
+							<figcaption class="figcap1">The World's First Web Browser</figcaption>	
+						</figure>
+						
+					<p class="descr1">His browser that was first browser supported multiple platforms called "Line Mode Browser" was launched on February 1992.
+						Developed at University of Illinois "Mosaic Browser" on 5th of Jan 1993 was the highly rated browser when it came out.</p>
+						
+						<figure class="img1">
+							<img src="Images/mosaic.png" alt="Mosaic" />
+							<figcaption class="figcap1">Mosaic Web Browser</figcaption>
+						</figure>
+						
+					<p class="descr1">The browser really did begin to change everything. By the end of 1994 there were a million browser copies in use.<br>
+						<br>In the same year Marc Andreesen founded Netscape Corporation, and the World Wide Web Consortium, which administers development of Word Wide Web standards, was formed by Sir Tim Berners-Lee.
+						Then we really started to see growth. Every year from 1994 to 2000, the Internet saw massive growth, the like of which had not been seen with any preceding technology. The Internet era had begun.<br>
+						<br>The web was created as a tool for us to share information with anyone, anywhere in the world. It started with the basics of sharing a document, but has gone on to create tools that now allow us to improve and share our lives. The web is constantly changing. Whatever the latest, greatest technology that currently defines the WEB, it will be superseded by something even greater, faster and better.</p>
+                
+                <h2 id="HTIW">"How the Internet Works"</h2>
+					<p class="descr2">The<b> Internet</b> is the global system of interconnected computer networks that use the Internet protocol suite (TCP/IP) to link devices worldwide.
+						The connections between the computers are a mixture of old-fashioned copper cables, fiber-optic cables (which send messages in pulses of light), wireless radio connections (which transmit information by radio. waves), and satellite links.
+						Each computer connected to the Internet must have a unique address called IP address (IP stands for Internet Protocol). This address must be a number from 0-255 and is in the form nnn.nnn.nnn.nnn</p>
+					
+						<figure class="img0">
+							<p class="descr0">The picture shows two computers connected to the internet with IP addresses:<br>Your Computer: 1.2.3.4 Another Computer: 5.6.7.8</p>	
+							<img src="Images/diag1.gif" alt="Diagram1" />
+							<figcaption class="figcap0">Diagram 1</figcaption>
+						</figure>
+
+					<p class="descr2">Let's say that you want to send message "Hello" from your computer with IP address 1.2.3.4 to computer with IP address 5.6.7.8 the message must be transmitted over whatever kind of wire connects your computer to the internet and must be translated from alphabetic text into electronic signals, transmitted over the internet, then translated back into alphabetic text. This is accomplished through the use of Protocol Stack. The protocol stack used on the internet is referred to as TCP/IP protocol because of two communication protocols used.
+						
+						<figure class="img0">
+							<p class="descr0">The picture below illustrate what happened when you send the message "Hello" from your computer to computer with IP address 5.6.7.8 :</p>
+							<img src="Images/diag2.gif" alt="Diagram2" />
+							<figcaption class="figcap0">Diagram 2</figcaption>
+						</figure>	
+						
+				<table class="table1">
+					<caption>The TCP/IP Stack:</caption>
+					<tr>
+						<th>Protocol Layer</th>
+						<th>Comments</th>
+					</tr>	
+					<tr>
+						<td>Application Protocols Layer</td>
+						<td>Protocols specific to applications such as WWW, e-mail, FTP, etc.</td>
+					</tr>
+					<tr>
+						<td>Transmission Control Protocol Layer</td>
+						<td>TCP directs packets to a specific application on a computer using a port number.</td>
+					</tr>
+					<tr>
+						<td>Internet Protocol Layer</td>
+						<td>IP directs packets to a specific computer using an IP address.</td>
+					</tr>
+					<tr>
+						<td>Hardware Layer</td>
+						<td>Converts binary packet data to network signals and back.<br>(E.g. ethernet network card, modem for phone lines, etc.)</td>
+					</tr>	
+				</table>	
+				
+					<p class="descr2">The Internet backbone is made up of many large networks which interconnect with each other. These large networks are known as <b>Network Service Providers</b> or <b>NSPs</b>.<br>
+						<br>NSPs also interconnect at Metropolitan Area Exchanges or MAEs. MAEs serve the same purpose as the NAPs but are privately owned. NAPs were the original Internet interconnects points. Both NAPs and MAEs are referred to as Internet Exchange Points.<br>
+						<br>How do packets find their way across the Internet? The information used to get packets to their destinations are contained in routing tables kept by each router connected to the Internet.
+						The router is usually connected between networks to route packets between them. Each router knows about its sub-networks and which IP addresses they use. The router usually doesn't know what IP addresses are 'above' it.</p>
+
+						<figure class="img1">
+							<img src="Images/diag3.gif" alt="Diagram3" />
+							<figcaption class="figcap1">Diagram 3</figcaption>
+						</figure>
+						
+					<p class="descr2">When a packet arrives at a router, the router examines the IP address put there by the IP protocol layer on the originating computer. The router checks it's routing table. If the network containing the IP address is found, the packet is sent to that network. If the network containing the IP address is not found, then the router sends the packet on a default route, usually up the backbone hierarchy to the next router. The next router might know where to send the packet, If it does not, again the packet is routed upwards until it reaches a NSP backbone. The routers connected to the NSP backbones hold the largest routing tables and here the packet will be routed to the correct backbone, where it will begin its journey 'downward' through smaller and smaller networks until it finds it's destination.<br>
+						<br>When it comes to websites, and we don't know the IP address, we refer to them by the names (like <a href="https://www.facebook.com" target="blank">www.facebook.com</a>) and there is a system called DNS (Domain Name System) that enables computer to look up the IP address for any given website.</p>
+                
+                <h2 id="HWPAD">"How Web Pages are Delivered"</h2>
+					<p class="descrart3">The picture below shows how it works<br> after you type URL such as griffith.ie into the browser:</p>
+					<p class="descr3"><img src="Images/image0.jpg" alt="VisualExample" />Website is a collection of documents and files, links, graphics, colors that comes together to create a website and there are usually associated with domain names like www.griffith.ie.
+						That explains where all the files that are necessary to display a website are located.
+						Websites are accessible through web browsers which is a computer application capable of downloading and displaying files and components that make up a website.
+						Example of web browsers: Internet Explorer, Opera, Safari, Mozilla Firefox, Google Chrome.
+						All documents and files related to websites are stored on the web servers, which are able to receive requests from user's web browsers and send back necessary files to display a website.</p>
+				
+				<ul class="art3list" style="list-style-type:square">
+					<li>Computer sends request for the web page to the router</li>
+					<li>The request is passed by the router onto your ISP</li>
+					<li>ISP converts typed characters into a numerical address called IP</li>
+					<li>ISP knows which server on the internet forward the request by located IP address</li>
+					<li>Web server receives the request and sends copy of the web page code to requested computer browser</li>
+					<li>Web browser renders the code and display on the screen</li>
+				</ul>
+                
+                <h2 id="HTML">"HTML"</h2>
+					<p class="descr1">HTML is a universal set of instructions that every web browsers are capable of understanding.<br>
+						It's the standard markup language to create web pages. Text, images are the types of content that can be written in HTML.<br>
+						HTML elements are the building blocks. Inclusion of CSS (Cascading Style Sheet) defines the look and layout of content.<br>
+						W3C (World Wide Web Consortium) it's a maintainer of both the HTML and the CSS stabdards.</p>
+                
+                <h2 id="future">"The Future"</h2>
+					<p class="descr4"><img src="Images/internet-future-1.jpg" alt="InternetFuture" />The Internet is only few decades old but in that short time there is so many significant changes.
+						It grew from independent networks into global entity and it serves as a platform for business, communication, entertainment and education. We can connect to these networks through dozens of different devices.
+						The data transmissions speed will increase globally.<br>
+						<br>According to Akamai Technologies, which publishes a quarterly state of the Internet report, the average global data transmission speed in late 2009 was 1.7 megabits per second<a href="https://www.akamai.com/us/en/about/our-thinking/state-of-the-internet-report/" target="blank">[source: Akamai]</a>. Compare that to the record for data transmission speed set by Bell Labs: 100 petabits per second <a href="https://phys.org/news/2009-09-bell-labs-optical-transmission-petabit.html" target="blank">[source: PhysOrg]</a>. That's equivalent to 100 billion megabits per second. At that speed, you could transmit 400 DVDs worth of data every second.
+						Even as wired connections reach unprecedented speeds, wireless technology continues to evolve. Technologies like LTE and WiMAX give us the ability to access the Internet wirelessly at speeds comparable to broadband connections
+						<br>What else might the future hold?
+						The Internet of Things? - The Internet of Things is far bigger than anyone realises, but this is a topic for another article.</p>
+                
+                <h2 id="term">"Terminology"</h2>
+					<dl class="art5list">
+						<dt>GUI</dt>
+						<dd>- Graphical User Interface</dd>
+						<dt>HTTP</dt>
+						<dd>- Hypertext Transfer Protocol</dd>
+						<dt>URI or URL</dt>
+						<dd>- Uniform Resource Identifier or Uniform Resource Locator</dd>
+						<dt>HTML</dt>
+						<dd>- Hypertext Markup Language</dd>
+						<dt>NSP</dt>
+						<dd>- Network Service Provider</dd>
+						<dt>IP</dt>
+						<dd>- Internet Protocol</dd>
+						<dt>TCP</dt>
+						<dd>- Transmission Control Protocol</dd>
+						<dt>DNS</dt>
+						<dd>- Domain Name System</dd>
+						<dt>CSS</dt>
+						<dd>- Cascading Style Sheet</dd>
+						<dt>W3C</dt>
+						<dd>- World Wide Web Consortium</dd>
+					</dl>	
+            </article>
+            
+            
+            
+            <footer><!--footer defined as a last section of the web-->
+                <p>Copyright &copy; 2019 by <b>Root6030</b> Email: root6030@gmail.com</p>   
+            </footer>
+            
+        </div>
+    </body>
+</html>

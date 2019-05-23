@@ -1,0 +1,115 @@
+<!DOCTYPE html><!--type of document defined to be HTML5-->
+
+<html lang="en"><!--root element of HTML Page-->
+
+    <head><!--contains meta information about document-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Website_Design_Project</title><!--element specifies a title for a document-->
+        <link rel="stylesheet" href="Css/style.css" />
+    </head>
+    
+    <body><!--inside the body all visible page content-->
+        <div id="container">
+            <header><!--might contain elements like logo, search form, author name introductory / navigational elements-->
+                <!--javascript for flying logo-->
+                <script>
+                    //set style for NS4 to ''
+                    if (document.layers)
+                        var ns4def=''
+                </script>
+
+                <h2 id="flyin" style="position:relative;left:-600px;font-style:italic;&{ns4def}";>-How The WEB Works-</h2>
+
+                <script language="JavaScript1.2">
+
+                    if (document.getElementById||document.all)
+                        var crossheader=document.getElementById? document.getElementById("flyin").style : document.all.flyin.style
+
+                        function animatein(){
+                            if (parseInt(crossheader.left)<0)
+                                crossheader.left=parseInt(crossheader.left)+20+"px"
+                            else{
+                                crossheader.left=0
+                                crossheader.fontStyle="normal"
+                                clearInterval(start)
+                            }
+                        }
+                    if (document.getElementById||document.all)
+                        start=setInterval("animatein()",80)
+                </script>
+            </header>                        
+            
+            <nav><!--defines the navigation links-->
+                <ul>
+                    <li><a href="wwwhist.html">WWW History</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="bibliography.html">Bibliography</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://www.csn.ie" target="_blank">CSN College</a></li>
+                </ul>
+            </nav>
+            
+            <!--div defines section in a HTML document. Below span, image holder and button for a slider-->    
+        <div class="slider-holder">
+            <span id="slider-image-1"></span>
+            <span id="slider-image-2"></span>
+            <span id="slider-image-3"></span>
+            <span id="slider-image-4"></span>
+        <div class="image-holder">
+            <img class="slider-image"
+                 src="Images/sl1.jpg"/>
+            <img class="slider-image"
+                 src="Images/sl5.jpg"/>
+            <img class="slider-image"
+                 src="Images/sl6.png"/>
+            <img class="slider-image"
+                 src="Images/sl4.jpg"/>
+        </div>
+        <!--<div class="button-holder"> <!--Buttons can be turned on at any time
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+            <a href="#slider-image-4" class="slider-change"></a>
+        </div>-->
+            </div>
+            
+            <!--Script for animated slider-->
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("slider-image");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }            
+                myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                            setTimeout(carousel, 5000);
+                }   
+            </script>
+            
+            <article>
+                <!--marquee is a elemnt used to insert scrolling area of test-->
+                    <marquee behavior="scroll" direction="left">!!!!!World Wide Web History!!!!!</marquee>
+                <section>
+                    <p>This website is not designed about the things that are for sell or about any particular company to promote their business.<br>It demonstrates author’s basic programming skills using HTML and CSS gathered during Software Development course in CSN College.<br>The website presents information about “History of The World Wide Web” that are based on research that is documented in section “Bibliography”.</p>
+                    <img src="Images/anim4.gif" alt="Continent" />
+                </section>
+                <!--marquee is a elemnt used to insert scrolling area of test-->
+                    <marquee behavior="scroll" direction="right">!!!!!World Wide Web History!!!!!</marquee>
+            </article>
+        
+        
+        
+        
+            <footer><!--footer defined as a last section of the web-->
+                <p>Copyright &copy; 2019 by <b>Root6030</b> Email: root6030@gmail.com</p>  
+            </footer>
+            
+        </div>
+    </body>
+</html>

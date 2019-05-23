@@ -1,0 +1,135 @@
+/*background image for body that cover whole body and no repeating image*/
+body {
+    margin: 0px;
+    background-image:url(../Images/contactb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*setting for container as above plus size of the container*/
+#container {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto 0 auto;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*background size position for header*/
+header {
+    width: 1000px;
+    height: 150px;
+    background-image:url(../Images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 150px;
+}
+
+/*navigation, navigation list settings*/
+nav {
+    width: 1000px;
+    height: 50px;
+    background-color: #3399ff;
+    display: block;
+    float: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    vertical-align: center;
+    /*line-height: 50px; to get vertical align in center no need line heigth if nav float left*/
+    padding: 0px 75px 0px 0px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+/*setings for shadows in nav menu*/
+nav ul li a:hover {
+    background: #cc33cc; 
+    color: ; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 4px; 
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+    text-decoration: none; 
+}
+
+section {
+    width: 950px;
+    height: 750px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    box-shadow: 10px 10px grey;
+}
+
+forms, label{
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+forms, [type=text] {
+    width: 400px;
+    height: 20px;
+    position: relative;
+    left: 120px;
+    top: 50px;
+    margin-top: 5px;
+}
+
+forms, [type=email] {
+    width: 400px;
+    height: 20px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    margin-top: 5px;
+}
+
+forms, [for=subject] {
+    position: relative;
+    top: -140px;
+}
+forms, textarea {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    margin-top: 5px;
+}
+forms, [type=submit] {
+    width: 150px;
+    position: relative;
+    top: 70px;
+    margin-top: 5px;
+    left: ;
+}
+forms, h3 {
+    text-align: center;
+    position: ;
+    right: ;
+    top: ;
+}
+
+section img {
+    width: 300px;
+    padding-left: 650px;;
+    float: left;
+    margin-top: -200px;    
+}
+
+footer {
+    width: 1000px;
+    height: 50px;
+    background-color: #3399ff;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    color: white;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html><!--type of document defined to be HTML5-->
+
+<html lang="en"><!--root element of HTML Page-->
+    
+    <head><!--contains meta information about document-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Website_Design_Project</title><!--element specifies a title for a document-->
+        <link rel="stylesheet" href="Css/location.css" />
+    </head>
+    
+    <body>
+        <div id="container">
+            <header>
+                 <!--javascript for flying logo-->
+                <script>
+                    //set style for NS4 to ''
+                    if (document.layers)
+                        var ns4def=''
+                </script>
+
+                <h2 id="flyin" style="position:relative;left:-600px;font-style:italic;&{ns4def}";>-Where We Are-</h2>
+
+                <script language="JavaScript1.2">
+
+                    if (document.getElementById||document.all)
+                        var crossheader=document.getElementById? document.getElementById("flyin").style : document.all.flyin.style
+
+                        function animatein(){
+                            if (parseInt(crossheader.left)<0)
+                                crossheader.left=parseInt(crossheader.left)+20+"px"
+                            else{
+                                crossheader.left=0
+                                crossheader.fontStyle="normal"
+                                clearInterval(start)
+                            }
+                        }
+                    if (document.getElementById||document.all)
+                        start=setInterval("animatein()",80)
+                </script>
+            </header>
+            
+            <nav><!--defines the navigation links-->
+                <ul>
+                    <li><a href="wwwhist.html">WWW History</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="bibliography.html">Bibliography</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://www.csn.ie" target="_blank">CSN College</a></li>
+                </ul>
+            </nav>
+            
+            <!--marquee is a elemnt used to insert scrolling area of test-->
+                    <marquee behavior="scroll" direction="right">!How To Find Us!</marquee>
+            
+            <div class="map">
+                <img src="Images/anim3.gif" alt="Continent" />
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2463.1087567144955!2d-8.483484784645071!3d51.87722729141672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48448fdd06f67adb%3A0xbbf455f6192c5037!2sCSN+College+of+Further+Education+(Col%C3%A1iste+Stiof%C3%A1in+Naofa)!5e0!3m2!1sen!2sie!4v1541722019930" width="" height="" frameborder="" style="border:" allowfullscreen></iframe>
+            </div>
+            
+            <!--marquee is a elemnt used to insert scrolling area of test-->
+                    <marquee behavior="scroll" direction="left">!How To Find Us!</marquee>
+            
+            <footer><!--footer defined as a last section of the web-->
+                <p>Copyright &copy; 2019 by <b>Root6030</b> Email: root6030@gmail.com</p>  
+            </footer>
+            
+        </div>
+    </body>   
+</html>

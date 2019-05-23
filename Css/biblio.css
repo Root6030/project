@@ -1,0 +1,119 @@
+/*background image for body that cover whole body and no repeating image*/
+body {
+    margin: 0px;
+    background-image:url(../Images/biography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*setting for container as above plus size of the container*/
+#container {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto 0 auto;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*background size position for header*/
+header {
+    width: 1000px;
+    height: 150px;
+    background-image:url(../Images/bibbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 150px;
+}
+
+/*navigation, navigation list settings*/
+nav {
+    width: 1000px;
+    height: 50px;
+    background-color: #3399ff;
+    display: block;
+    float: left;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    vertical-align: center;
+    /*line-height: 50px; to get vertical align in center no need line heigth if nav float left*/
+    padding: 0px 85px 0px 0px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+/*setings for shadows in nav menu*/
+nav ul li a:hover {
+    background: #cc33cc; 
+    color: ; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 4px; 
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+    text-decoration: none; 
+}
+
+section {
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+
+section ul li {
+    color: antiquewhite;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.a h2 img {
+    width: 900px;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    float: ;
+}
+
+.b h2 img {
+    width: 450px;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+section ol {
+    float: left;
+}
+
+section ol li {
+    color: antiquewhite;
+    font-size: 24px;
+    padding-left: ;
+}
+
+section li a {
+    color: aquamarine;
+    font-size: 24px;
+    padding-left: ;
+} 
+
+footer {
+    width: 1000px;
+    height: 50px;
+    background-color: #3399ff;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    color: white;
+}
